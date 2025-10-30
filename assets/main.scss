@@ -57,11 +57,8 @@ a:hover {
 }
 
 .site-logo {
-  height: 20px;
+  height: 10px; /* directly control height instead */
   width: auto;
-  vertical-align: middle;
-  margin-right: 8px;
-  filter: grayscale(100%);
 }
 
 .post-content {
