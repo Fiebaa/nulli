@@ -1,3 +1,8 @@
+---
+---
+
+console.log("Burger menu script loaded ✅");
+
 document.addEventListener("DOMContentLoaded", function () {
   const toggle = document.querySelector(".menu-toggle");
   const nav = document.querySelector(".site-nav");
