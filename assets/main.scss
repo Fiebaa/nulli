@@ -85,9 +85,10 @@ a:hover {
   align-items: center;
 }
 
+/* --- Burger menu behavior --- */
 @media (max-width: 700px) {
   .site-nav {
-    display: none;
+    display: none !important;
     flex-direction: column;
     background: #fff9fd;
     position: absolute;
@@ -96,13 +97,15 @@ a:hover {
     padding: 1rem 1.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    z-index: 1000;
   }
 
   .site-nav.open {
-    display: flex;
+    display: flex !important;
   }
 
   .menu-toggle {
     display: block;
+    cursor: pointer;
   }
 }
