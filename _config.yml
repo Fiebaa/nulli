@@ -27,10 +27,7 @@ github_username: fiebaa
 
 # Burger menu navigation configuration
 nav_pages:
-  - title: "Home"
-    url: /
-  - title: "About"
-    url: /about/
+  - about.md
 
 # Build settings
 theme: minima
