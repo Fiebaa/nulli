@@ -19,18 +19,17 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Nulli
-email: contact@example.com
 description: >-
   A blog exploring life, ideas, and simplicity.
 baseurl: "/nulli" # the subpath of your site, e.g. /blog
 url: "https://fiebaa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
 github_username: fiebaa
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 minima:
   skin: classic
 
