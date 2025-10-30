@@ -1,0 +1,28 @@
+@import "minima/skins/classic", "minima";
+
+body {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.7;
+}
+
+.site-header {
+  border: none;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+a {
+  color: #0066ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title {
+  font-weight: 600;
+  font-size: 1.4em;
+}
