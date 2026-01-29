@@ -6,8 +6,6 @@ date: 2025-10-30
 author: Fiebaa
 tags: [minimalism, coding, simplicity]
 categories: [thoughts]
-image: /assets/images/minimalism-code.jpg
-canonical_url: https://fiebaa.github.io/nulli/the-art-of-minimalism-in-code
 ---
 
 ## The Beauty of Less

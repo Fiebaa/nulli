@@ -23,6 +23,7 @@ description: >-
   A blog exploring life, ideas, and simplicity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.0lli.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+author: 0lli
 github_username: fiebaa
 
 # Burger menu navigation configuration
@@ -37,6 +38,7 @@ plugins:
 minima:
   skin: classic
 
+show_excerpts: true
 hide_site_feed_link: true
 # Exclude from processing.
 # The following items will not be processed, by default.
