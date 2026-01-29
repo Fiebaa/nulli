@@ -44,20 +44,17 @@ a:hover {
   font-size: 1.4em;
 }
 
-.feed-subscribe {
-  display: none !important;
-}
-
+.feed-subscribe,
 .rss-subscribe {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
+  display: none;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .site-logo {
-  height: 10px; /* directly control height instead */
+  height: 36px;
   width: auto;
 }
 
@@ -85,7 +82,7 @@ a:hover {
 /* --- Burger menu behavior --- */
 @media (max-width: 700px) {
   .site-nav {
-    display: none !important;
+    display: none;
     flex-direction: column;
     background: #fff9fd;
     position: absolute;
@@ -95,27 +92,14 @@ a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     z-index: 1000;
+    transition: all 0.2s ease;
   }
 
-  /* Debug visibility */
-.site-nav {
-  transition: all 0.2s ease;
-}
-.site-nav.open {
-  display: flex !important;
-  opacity: 1 !important;
-  transform: translateY(0) !important;
-  position: absolute;
-  top: 60px;
-  right: 1rem;
-  background: #fff9fd;
-  padding: 1rem 1.5rem;
-  flex-direction: column;
-  z-index: 9999;
-}
+  .site-nav.open {
+    display: flex;
+  }
 
   .menu-toggle {
     display: block;
-    cursor: pointer;
   }
 }
