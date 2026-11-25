@@ -1,5 +1,7 @@
+---
+---
 
-@import "minima/skins/classic", "minima";
+@import "minima";
 
 html {
   scroll-behavior: smooth;
@@ -27,6 +29,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* minima's clearfix pseudo-element would become a stray flex item */
+.site-header .wrapper::after {
+  display: none;
 }
 
 a {
@@ -97,6 +104,10 @@ a:hover {
 
   .site-nav.open {
     display: flex;
+  }
+
+  .site-nav .page-link {
+    margin-left: 0;
   }
 
   .menu-toggle {
