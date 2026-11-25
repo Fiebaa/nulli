@@ -3,7 +3,7 @@ layout: post
 title: "The Art of Minimalism in Code and Life"
 description: "Exploring how simplicity in design and code can lead to better clarity, performance, and longevity."
 date: 2025-10-30
-author: Fiebaa
+author: 0lli
 tags: [minimalism, coding, simplicity]
 categories: [thoughts]
 ---
